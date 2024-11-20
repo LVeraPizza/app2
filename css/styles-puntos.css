@@ -344,7 +344,7 @@
 
         .button-container-1 {
             position: fixed;
-            bottom: 20px;
+            bottom: 50px;
             right: 1%;
             /* Ajusta el 5% según desees la distancia desde el lado derecho */
             display: flex;
