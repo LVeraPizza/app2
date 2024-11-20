@@ -18,7 +18,7 @@
             background-attachment: fixed;
         }
         #special-product {
-            margin-bottom: 40%;
+            margin-bottom: 45%;
         }
 
         /* Contenedor principal */
@@ -344,7 +344,7 @@
 
         .button-container-1 {
             position: fixed;
-            bottom: 9%;
+            bottom: 10%;
             right: 1%;
             /* Ajusta el 5% según desees la distancia desde el lado derecho */
             display: flex;
