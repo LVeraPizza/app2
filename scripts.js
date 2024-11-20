@@ -99,3 +99,28 @@ function updateQuantityFields() {
         }
     }
 }
+
+function openImage(imageElement) {
+    const modal = document.getElementById("image-modal");
+    const fullImage = document.getElementById("full-image");
+
+    // Mostrar el modal
+    modal.style.display = "flex";
+
+    // Configurar la imagen del modal
+    fullImage.src = imageElement.src;
+
+    // Agregar clase para efecto de aparición
+    modal.classList.add("show");
+}
+
+function closeImage() {
+    const modal = document.getElementById("image-modal");
+
+    // Ocultar el modal
+    modal.style.display = "none";
+
+    // Eliminar la clase de efecto
+    modal.classList.remove("show");
+}
+
