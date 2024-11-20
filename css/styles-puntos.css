@@ -17,6 +17,9 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
         }
+        #special-product {
+            margin-bottom: 30px;
+        }
 
         /* Contenedor principal */
         #app-container {
