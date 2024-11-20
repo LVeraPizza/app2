@@ -24,16 +24,7 @@
     </div>
 
     <div class="product-card">
-               <div class="image-container">
-            <img src="img/pizza_margherita_(canje).png" alt="Producto" class="product-image" onclick="openImage(this)">
-        </div>
-        
-        <!-- Modal para mostrar la imagen en pantalla completa -->
-        <div id="image-modal" class="modal">
-            <div class="modal-content">
-                <button class="close-button" onclick="closeImage()">&#x2715;</button>
-                <img id="full-image" alt="Producto en pantalla completa">
-            </div>
+     <img src="img/pizza_margherita_(canje).png" alt="Producto" class="product-image">
         </div>
         <div class="product-info">
             <h3 class="product-name">Pizza Margherita (canje)</h3>
@@ -52,13 +43,7 @@
     </div>
 
     <div class="product-card">
-       <img src="img/pizza_rúcula_y_jamon_crudo_(canje).png" alt="Producto" class="product-image" onclick="openImage(this)">
-        <!-- Modal para mostrar la imagen en pantalla completa -->
-        <div id="image-modal" class="modal">
-            <div class="modal-content">
-                <button class="close-button" onclick="closeImage()">&#x2715;</button>
-                <img id="full-image" alt="Producto en pantalla completa">
-            </div>
+        <img src="img/pizza_rúcula_y_jamon_crudo_(canje).png" alt="Producto" class="product-image">
         <div class="product-info">
             <h3 class="product-name">Pizza Rúcula y Jamon Crudo (canje)</h3>
             <p class="product-description">Queso mozzarella, salsa de tomate pomodoro, parmesano, jamón crudo, rúcula.
@@ -78,13 +63,7 @@
     </div>
 
     <div class="product-card" id="special-product">
-        <img src="img/pizza_pepperoni_(canje).png" alt="Producto" class="product-image" onclick="openImage(this)">
-        <!-- Modal para mostrar la imagen en pantalla completa -->
-        <div id="image-modal" class="modal">
-            <div class="modal-content">
-                <button class="close-button" onclick="closeImage()">&#x2715;</button>
-                <img id="full-image" alt="Producto en pantalla completa">
-            </div>
+    <img src="img/pizza_pepperoni_(canje).png" alt="Producto" class="product-image">
         <div class="product-info">
             <h3 class="product-name">Pizza Pepperoni (canje)</h3>
             <p class="product-description">Salsa de tomate pomodoro, queso mozzarella, albahaca, aceite de oliva,
@@ -292,31 +271,6 @@
             updateCartCount();
             checkProductButtons();
         };
-        function openImage(imageElement) {
-            const modal = document.getElementById("image-modal");
-            const fullImage = document.getElementById("full-image");
-        
-            // Mostrar el modal
-            modal.style.display = "flex";
-        
-            // Configurar la imagen del modal
-            fullImage.src = imageElement.src;
-        
-            // Agregar clase para efecto de aparición
-            modal.classList.add("show");
-        }
-        
-        function closeImage() {
-            const modal = document.getElementById("image-modal");
-        
-            // Ocultar el modal
-            modal.style.display = "none";
-        
-            // Eliminar la clase de efecto
-            modal.classList.remove("show");
-        }
-
-
     </script>
     
     
